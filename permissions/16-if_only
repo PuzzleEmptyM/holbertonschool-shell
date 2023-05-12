@@ -1,0 +1,2 @@
+#!/bin/bash
+if [ "(ls -ld hello | awk '{print $3}')" = "vincent" ]; then sudo chown guillaume hello; fi
