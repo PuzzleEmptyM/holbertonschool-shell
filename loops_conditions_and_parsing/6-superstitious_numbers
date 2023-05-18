@@ -3,7 +3,7 @@
 i=1
 while [ "$1" -le 20 ]
 do
-	echo "$1"
+	echo "$i"
 	case $1 in
 		4)
 			echo "bad luck from China"
