@@ -1,4 +1,4 @@
-#!/bin/usr/env bash
+#!/usr/bin/env bash
 #This script gives you info about the "School" file
 file_h="school"
 
