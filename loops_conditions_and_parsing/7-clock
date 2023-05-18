@@ -13,3 +13,4 @@ do
 	done
 	j=$((j + 1))
 done
+i=$i
