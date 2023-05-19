@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#This script creates /var/run/myscript.pid, displays "To infinity and beyond" indefinitely, displays "I hate the kill command" when SIGTERM, displays "Y U no love me?" when SIGINT, deletes /var/run/myscript.pid and termintates itself when SIGQUIT or SIGTERM.
+yikes
