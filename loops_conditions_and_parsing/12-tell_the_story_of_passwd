@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #This is the story of Passwd. The lonliest boy in the world.
-file_h="etc/passwd"
+file_h="/etc/passwd"
 f1=""
 f2=""
 f3=""
