@@ -1,0 +1,4 @@
+#!/usr/bin/evn bash
+#Bepepebpepbepbpepeb
+file="apache-access.log"
+awk -F' ' '{ print $1, $9}' $file | sort | uniq -c | sort -nr
