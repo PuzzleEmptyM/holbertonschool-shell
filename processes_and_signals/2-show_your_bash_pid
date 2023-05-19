@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#This script displays lines containing the "bash" word.
+output=$(ps -A uf | grep -i bash)
+echo "$ps_output" | awk '{print $0, " (PID:", $2, ")"}'
