@@ -4,7 +4,7 @@ trap interrupt SIGTERM
 
 interrupt()
 {
-	echo "I am invincible!!!
+	echo "I am invincible!!!"
 }
 
 while true
