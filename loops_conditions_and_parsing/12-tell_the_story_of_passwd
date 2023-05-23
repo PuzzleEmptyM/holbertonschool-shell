@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #This is the story of Passwd. The lonliest boy in the world.
-file_h="/etc/passwd"
+file="/etc/passwd"
 f1=""
 f2=""
 f3=""
@@ -14,4 +14,4 @@ do
 	f6="$(echo "$line" | cut -d":" -f2)"
 	f7="$(echo "$line" | cut -d":" -f5)"
 	echo "The user ${f1} is part of the ${f2} gang, lives in ${f3} and rides ${f4}. ${f5}'s place is protected by the passcode ${f6}, more info about the user here: ${f7}"
-done < "$file_h"
+done < "$file"
